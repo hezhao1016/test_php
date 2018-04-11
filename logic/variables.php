@@ -21,5 +21,13 @@ $doubleNum = 1.11;
 $bool = true;
 $char = 'a';
 
+/*PHP 变量作用域
+变量的作用域是脚本中变量可被引用/使用的部分。
+PHP 有四种不同的变量作用域：
+local
+global
+static
+parameter*/
+
 
 
