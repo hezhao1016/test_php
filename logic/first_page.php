@@ -16,7 +16,7 @@
 // PHP 中的每行代码都必须以分号结束。
 
 // PHP，有两种在浏览器输出文本的基础指令：echo 和 print。
-echo "Hello World!\n";
+echo "Hello World!<br/>";
 print "Hello HeZhao!"
 
 
