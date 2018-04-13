@@ -35,8 +35,7 @@ parameter
 
 //局部和全局作用域
 $x = 5; // 全局变量
-function myTest()
-{
+function myTest(){
     $y = 10;
     echo "<p>测试函数内变量</p>";
     echo "变量x 为: $x"; // 无法输出， 如果要在一个函数中访问一个全局变量，必须使用 global 关键字。
@@ -58,8 +57,7 @@ echo "<br/><hr/><br/>";
 $x = 5;
 $y = 10;
 
-function myTest_global()
-{
+function myTest_global(){
     global $x, $y;
     $y += $x;
 }
@@ -74,8 +72,7 @@ echo "myTest_global:$y<br/>";
 $x = 5;
 $y = 10;
 
-function myTest_GLOBALS()
-{
+function myTest_GLOBALS(){
     $GLOBALS['y'] += $GLOBALS["x"];
 }
 
@@ -85,8 +82,7 @@ echo "myTest_GLOBALS:$y<br/><hr/>";
 
 
 //Static 作用域 | 使用static修饰的变量在执行完之后不会清除掉
-function myTest_static()
-{
+function myTest_static(){
     static $x = 0;
     echo "$x<br/>";
     $x++;
@@ -101,8 +97,7 @@ myTest_static();
 
 
 //参数作用域
-function myTest_param($x)
-{
+function myTest_param($x){
     echo "<hr/>$x";
 }
 

@@ -74,16 +74,13 @@ echo "<br>";
 
 
 //对象
-class Car
-{
+class Car{
     var $color;
 
-    public function __construct($color="green")
-    {
+    public function __construct($color="green"){
         $this->color = $color;
     }
-    function what_color()
-    {
+    function what_color(){
         return $this->color;
     }
 }
