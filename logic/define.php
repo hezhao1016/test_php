@@ -17,6 +17,18 @@ bool define ( string $name , mixed $value [, bool $case_insensitive = false ] )
 name：必选参数，常量名称，即标志符。
 value：必选参数，常量的值。
 case_insensitive ：可选参数，如果设置为 TRUE，该常量则大小写不敏感。默认是大小写敏感的。
+
+
+问：在php中定义常量时，const和define的区别？
+
+答：使用const使得代码简单易读，const本身就是一个语言结构，而define是一个函数。另外const在编译时要比define快很多。
+1、const用于类成员变量的定义，一经定义，不可修改。Define不可以用于类成员变量的定义，可用于全局常量。
+2、Const可在类中使用，define不能
+3、Const不能再条件语句中定义常量
+4、const采用普通的常量名称，define可以采用表达式作为名称
+5、const只能接受静态的标量，而define可以采用任何表达式
+6、const定义的常量时大小写敏感，而define可以通过第三个参数（为true表示大小写不敏感）来指定大小写是否敏感。
+
 */
 
 // 区分大小写的常量名

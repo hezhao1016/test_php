@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f62597d-ac2b-4818-8424-9f292030e9f1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/logic/func_declare.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logic/magic_variables.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logic/name_space/example1.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logic/name_space/example2.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logic/name_space/file1.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logic/name_space/file2.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logic/name_space/space_1.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/oo/trait.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oo/class_and_object.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oo/test_const.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oo/test_construct.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oo/test_destructor.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oo/test_final.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oo/test_oop.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oo/test_static.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/logic/func.php" afterPath="$PROJECT_DIR$/logic/func.php" />
-      <change beforePath="$PROJECT_DIR$/logic/string.php" afterPath="$PROJECT_DIR$/logic/string.php" />
-      <change beforePath="$PROJECT_DIR$/logic/variables.php" afterPath="$PROJECT_DIR$/logic/variables.php" />
+      <change beforePath="$PROJECT_DIR$/logic/define.php" afterPath="$PROJECT_DIR$/logic/define.php" />
+      <change beforePath="$PROJECT_DIR$/logic/name_space/file2.php" afterPath="$PROJECT_DIR$/logic/name_space/file2.php" />
+      <change beforePath="$PROJECT_DIR$/oo/trait.php" afterPath="$PROJECT_DIR$/oo/test_trait.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +22,114 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="class_and_object.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/class_and_object.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#83#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_construct.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/test_construct.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_destructor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/test_destructor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#6#150#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_oop.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/test_oop.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="define.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/logic/define.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_const.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/test_const.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_static.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/test_static.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_final.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/test_final.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-96">
+              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logic/name_space/file2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding>
+                <element signature="e#6#77#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http3.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/http/http3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="210" column="10" lean-forward="false" selection-start-line="210" selection-start-column="10" selection-end-line="210" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -32,9 +138,7 @@
       <find>$format</find>
       <find>$timezone_identifier</find>
       <find>count(</find>
-      <find>-&gt;</find>
       <find>.</find>
-      <find>PHP_EOL</find>
       <find>$nums</find>
       <find>}</find>
       <find>asus</find>
@@ -44,17 +148,26 @@
       <find>gettype</find>
       <find>{</find>
       <find>MyProject</find>
-      <find>const</find>
       <find>decl</find>
       <find>\n</find>
       <find>动态特征</find>
       <find>__NAMESPACE__</find>
       <find>全局</find>
       <find>classname</find>
+      <find>var</find>
+      <find>inc</find>
+      <find>define</find>
+      <find>const</find>
+      <find>-&gt;</find>
+      <find>PHP_EOL</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;br&gt;</replace>
+      <replace>&quot;&lt;br&gt;&quot;</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>F:\Workspaces\PhpstormProjects\test_php\oo</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -76,7 +189,6 @@
         <option value="$PROJECT_DIR$/logic/array_sort.php" />
         <option value="$PROJECT_DIR$/logic/superglobals.php" />
         <option value="$PROJECT_DIR$/logic/while_for.php" />
-        <option value="$PROJECT_DIR$/logic/define.php" />
         <option value="$PROJECT_DIR$/logic/declare.php" />
         <option value="$PROJECT_DIR$/logic/if_else.php" />
         <option value="$PROJECT_DIR$/logic/func_declare.php" />
@@ -89,10 +201,21 @@
         <option value="$PROJECT_DIR$/logic/namespace/myproject_1.php" />
         <option value="$PROJECT_DIR$/logic/name_space/myproject_1.php" />
         <option value="$PROJECT_DIR$/logic/name_space/file1.php" />
-        <option value="$PROJECT_DIR$/logic/name_space/file2.php" />
         <option value="$PROJECT_DIR$/logic/name_space/example2.php" />
         <option value="$PROJECT_DIR$/logic/name_space/example1.php" />
         <option value="$PROJECT_DIR$/logic/name_space/space_1.php" />
+        <option value="$PROJECT_DIR$/oo/oop.php" />
+        <option value="$PROJECT_DIR$/oo/construct.php" />
+        <option value="$PROJECT_DIR$/oo/destructor.php" />
+        <option value="$PROJECT_DIR$/oo/test_extends.php" />
+        <option value="$PROJECT_DIR$/oo/class_and_object.php" />
+        <option value="$PROJECT_DIR$/oo/test_extends_override.php" />
+        <option value="$PROJECT_DIR$/logic/name_space/file2.php" />
+        <option value="$PROJECT_DIR$/oo/test_static.php" />
+        <option value="$PROJECT_DIR$/oo/test_final.php" />
+        <option value="$PROJECT_DIR$/oo/test_oop.php" />
+        <option value="$PROJECT_DIR$/oo/test_const.php" />
+        <option value="$PROJECT_DIR$/logic/define.php" />
       </list>
     </option>
   </component>
@@ -137,6 +260,11 @@
             <path>
               <item name="test_php" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="logic" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="test_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_php" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="oo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -159,6 +287,9 @@
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Workspaces\PhpstormProjects\test_php\oo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\git\test_php\logic" />
     </key>
@@ -203,15 +334,17 @@
       <workItem from="1523669754248" duration="4410000" />
       <workItem from="1523709058368" duration="648000" />
       <workItem from="1523710951363" duration="12185000" />
-      <workItem from="1523755587417" duration="4981000" />
+      <workItem from="1523755587417" duration="5460000" />
+      <workItem from="1523805142716" duration="6644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59967000" />
+    <option name="totallyTimeSpent" value="67090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -220,7 +353,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -249,45 +382,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6402">
-          <caret line="291" column="9" lean-forward="false" selection-start-line="291" selection-start-column="9" selection-end-line="291" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/define.php" />
-    <entry file="file://$PROJECT_DIR$/logic/string.php" />
-    <entry file="file://$PROJECT_DIR$/logic/operator.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_d.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7612">
-          <caret line="346" column="7" lean-forward="false" selection-start-line="346" selection-start-column="7" selection-end-line="346" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/echo_print.php" />
-    <entry file="file://$PROJECT_DIR$/logic/data_type_parse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logic/hello.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#79#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -309,9 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#79#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -333,9 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#79#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -343,9 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#79#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -447,9 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#79#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -489,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -513,13 +598,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oo/trait.php">
+    <entry file="file://$PROJECT_DIR$/oo/test_trait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2178">
           <caret line="103" column="6" lean-forward="false" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
@@ -535,19 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logic/define.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_0.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2860">
           <caret line="130" column="9" lean-forward="false" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,22 +640,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logic/name_space/file2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#6#77#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logic/name_space/file1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
-            <element signature="e#6#77#0#PHP" expanded="true" />
+            <element signature="e#6#77#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -591,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="e#6#79#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,6 +661,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-418">
           <caret line="153" column="24" lean-forward="false" selection-start-line="153" selection-start-column="24" selection-end-line="153" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/http/http3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="210" column="10" lean-forward="false" selection-start-line="210" selection-start-column="10" selection-end-line="210" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/test_destructor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#6#150#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/name_space/file2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#6#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/test_construct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/class_and_object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/test_static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/test_final.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/test_oop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/test_const.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/define.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
           <folding />
         </state>
       </provider>

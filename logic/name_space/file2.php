@@ -6,6 +6,8 @@
  */
 
 namespace Foo\Bar;
+
+// 引入PHP文件
 include 'file1.php';
 
 const FOO = 2;
