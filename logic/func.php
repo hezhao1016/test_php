@@ -28,6 +28,8 @@ echo "1 + 2 = " . calc(1,2) . "<br>";
 
 
 // 默认参数
+// 默认值必须是常量表达式，不能是诸如变量，类成员，或者函数调用等。
+// 注意当使用默认参数时，任何默认参数必须放在任何非默认参数的右侧；否则，函数将不会按照预期的情况工作。
 function sayName($name, $age=23){
     echo "My Name is " . $name . ", I'm " . $age . " years old.<br>";
 }
@@ -36,36 +38,13 @@ sayName("张三",18);
 echo "<hr>";
 
 //PHP 还允许使用数组 array 和特殊类型 NULL 作为默认参数
-function makecoffee($types = array("cappuccino"), $coffeeMaker = NULL)
-{
+function makecoffee($types = array("cappuccino"), $coffeeMaker = NULL){
     $device = is_null($coffeeMaker) ? "hands" : $coffeeMaker;
     return "Making a cup of [".join(", ", $types)."] with $device.<br>";
 }
 echo makecoffee();
 echo makecoffee(array("cappuccino", "lavazza"), "teapot");
 echo "<hr>";
-
-//默认值必须是常量表达式，不能是诸如变量，类成员，或者函数调用等。
-//注意当使用默认参数时，任何默认参数必须放在任何非默认参数的右侧；否则，函数将不会按照预期的情况工作。
-
-
-// 类型声明
-function test(int $param) {
-    echo "正确<br>";
-}
-test(2);
-
-
-// 严格类型 7.0+
-//在严格模式中，只有一个与类型声明完全相符的变量才会被接受，否则将会抛出一个TypeError。 唯一的一个例外是可以将integer传给一个期望float的函数。
-/*
-declare(strict_types=1);  // 必须在首行
-function sum(int $a, int $b) {
-    return $a + $b;
-}
-var_dump(sum(1, 2));
-var_dump(sum(1.5, 2.5));
-*/
 
 
 //可变长度参数 5.6+
@@ -92,7 +71,7 @@ print_r($nums);
 echo "<hr>";
 
 
-// 引用传递
+// 引用传递 参数前加 &
 function takeArray2(&$arrays){
     $arrays[0] = 10;
     return $arrays;

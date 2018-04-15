@@ -58,3 +58,26 @@ echo mb_substr('你好世界',2,2); //正确
 // 去除空格
 echo "<br>";
 echo trim(" a b c   ");
+echo "<hr>";
+
+
+// 比较字符串
+//PHP中，可以用双等号（==）或 三等号（===）来比较字符串。
+//二者的区别是：双等号不比较类型，三等号会比较类型，但不转换类型；
+//用双等号进行比较时，如果等号左右两边有数字类型的值，刚会把另一个值转化为数字，然后进行比较。
+//如果是纯字符串或者NULL时，会转化为0进行比较。同样，大小于号也和等号一样，比较时可能出现不正确的结果。
+
+var_dump( "A" == "A" ); echo "<br>";
+var_dump( "0" == "A" ); echo "<br>";
+var_dump( 0 == "A" ); echo "<br>";
+var_dump( 0 === "A" ); echo "<hr>";
+
+//比较字符串可以用PHP的自带函数strcmp和strcasecmp。其中strcasecmp是strcmp的变种，它会先把字符串转化为小写再进行比较
+//等于则返回0、大于则返回1、小于则返回-1
+
+var_dump(strcmp('A','A')); echo "<br>";
+var_dump(strcmp('0','A')); echo "<br>";
+var_dump(strcmp(0,'A')); echo "<br>";
+var_dump(strcmp('a','A')); echo "<br>";
+var_dump(strcasecmp('a','A')); echo "<br>";
+
