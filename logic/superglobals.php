@@ -40,10 +40,12 @@ echo '<br>';
 echo $_SERVER['SCRIPT_NAME']; // 脚本路径
 echo '<br>';
 echo $_SERVER['SCRIPT_FILENAME']; // 脚本绝对路径
+echo '<br>';
+echo $_SERVER['REQUEST_METHOD']; // 请求类型，POST/GET
 echo '<br><br>';
 
 
-//$_REQUEST | 请求数据
+//$_REQUEST | 请求数据,包含了 $_GET、$_POST 和 $_COOKIE 的内容。
 echo '$_REQUEST:' . $_REQUEST['fname'] . "<br>";
 
 //$_POST | 用于收集POST数据
