@@ -70,7 +70,7 @@ echo file_exists("D:/ztest/b.txt") . "<br/>";
 var_dump(is_dir("D:/ztest/"));
 echo "<br/>";
 
-//检查指定的文件是否是一个目录
+//检查指定的文件是否是一个文件
 var_dump(is_file("D:/ztest/"));
 echo "<br/>";
 

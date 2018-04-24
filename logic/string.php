@@ -60,6 +60,18 @@ echo "<br>";
 echo trim(" a b c   ");
 echo "<hr>";
 
+// 将字符串分割成数组
+$str = 'one,two,three,four';
+print_r(explode(",",$str));
+print "<br>";
+
+// 将数组拼接成字符串
+$arr = array('one','two','three','four');
+echo implode(",",$arr) . "<br>";
+
+// 字符串MD5加密
+$str = "Hello";
+echo md5($str) . "<br>";
 
 // 比较字符串
 //PHP中，可以用双等号（==）或 三等号（===）来比较字符串。
