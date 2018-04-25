@@ -1,5 +1,5 @@
 <!--
-启动会话
+使用session之前必须先启动会话
 注释：session_start() 函数必须位于 <html> 标签之前-->
 
 <?php
@@ -7,7 +7,17 @@
 session_start();
 
 //存储 Session 数据
-$_SESSION["views"] = 1;
+if(isset($_SESSION["views"])){
+    $_SESSION["views"] = $_SESSION["views"] + 1;
+}else{
+    $_SESSION["views"] = 1;
+}
+
+// 释放指定的 session 数据
+//unset($_SESSION["views"]);
+
+// 彻底销毁session，会删除所有session数据
+//session_destroy();
 
 ?>
 
@@ -19,7 +29,7 @@ $_SESSION["views"] = 1;
 </head>
 <body>
 <?php
-//检索Session数据
+//获取Session数据
 echo "浏览量：" . $_SESSION["views"];
 ?>
 </body>

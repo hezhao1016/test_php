@@ -101,3 +101,46 @@ echo $my_car->what_color(), "<br/>";
 echo "<br>NULL<hr/>";
 $x = null;
 var_dump($x);
+
+
+// 获取变量类型
+$a = 123;//整型
+$b = '123';//字符串型
+$c = 1.23;//浮点型
+$d = true;//布尔型
+$e = null;//NULL型
+echo '<br>$a是',gettype($a),'型','<br>';
+echo '$b是',gettype($b),'型','<br>';
+echo '$c是',gettype($c),'型','<br>';
+echo '$d是',gettype($d),'型','<br>';
+echo '$e是',gettype($e),'型','<br>';
+
+
+// 判断是否是某一个数据类型
+echo "<hr>";
+// 是否是字符串
+var_dump(is_string("abc"));    echo "<br>";
+// 是否是整形
+var_dump(is_int(1));    echo "<br>";
+var_dump(is_integer(1));    echo "<br>";
+// 是否是长整型
+var_dump(is_long(1000000000));    echo "<br>";
+// 是否是浮点型
+var_dump(is_float(1.1));    echo "<br>";
+var_dump(is_double(1.10));    echo "<br>";
+// 是否是数字
+var_dump(is_numeric(3.1415926));    echo "<br>";
+// 是否是布尔
+var_dump(is_bool(false));    echo "<br>";
+// 是否是Null
+var_dump(is_null(null));    echo "<br>";
+// 是否是数组
+var_dump(is_array([1,2,3]));    echo "<br>";
+// 是否是可迭代的
+var_dump(is_iterable([1,2,3]));    echo "<br>";
+// 是否是对象
+var_dump(is_object(new Car()));    echo "<br>";
+// 是否是文件
+var_dump(is_file("D:/msdia80.dll"));    echo "<br>";
+// 是否是目录
+var_dump(is_dir("D:/"));    echo "<br>";

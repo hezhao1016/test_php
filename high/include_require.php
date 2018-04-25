@@ -17,10 +17,20 @@ include 生成一个警告（E_WARNING），在错误发生后脚本会继续执
 包含文件省去了大量的工作。这意味着您可以为所有网页创建标准页头、页脚或者菜单文件。然后，在页头需要更新时，您只需更新这个页头包含文件即可。
 
 语法
-    include 'filename';
+    include 'filename'; 或 include('filename');
 或者
-    require 'filename';
+    require 'filename'; 或 require('filename');
 */
+
+/*
+include_once 和include语句类似，唯一区别是如果该文件中的代码已经被包含了，则不会再次包含。
+require_once 和require语句类似，唯一区别是如果该文件中的代码已经被包含了，则不会再次包含。
+
+语法
+    include_once 'filename'; 或 include_once('filename');
+或者
+    require_once 'filename'; 或 require_once('filename');
+ */
 
 /*
 // 假设我们有一个定义变量的包含文件（"vars.php"）：

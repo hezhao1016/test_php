@@ -102,16 +102,3 @@ function myTest_param($x){
 }
 
 myTest_param(9);
-
-
-// 获取变量类型
-$a=123;//整型
-$b='123';//字符串型
-$c=1.23;//浮点型
-$d=true;//布尔型
-$e=null;//NULL型
-echo '<br>$a是',gettype($a),'型','<br />';
-echo '$b是',gettype($b),'型','<br />';
-echo '$c是',gettype($c),'型','<br />';
-echo '$d是',gettype($d),'型','<br />';
-echo '$e是',gettype($e),'型','<br />';
