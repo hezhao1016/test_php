@@ -22,9 +22,9 @@ class QQMailer{
     public static $SMTP = 'ssl'; // 使用 ssl 加密方式登录
     public static $CHARSET = 'UTF-8'; // 设置发送的邮件的编码
 
-    private static $USERNAME = '1439293823@qq.com'; // 授权登录的账号
-    private static $PASSWORD = 'hzqqmail525672'; // 授权登录的密码
-    private static $NICKNAME = '何钊'; // 发件人的昵称
+    private static $USERNAME = 'xxx@qq.com'; // 授权登录的账号
+    private static $PASSWORD = '******'; // 授权登录的密码
+    private static $NICKNAME = 'Your Name'; // 发件人的昵称
 
     /**
      * QQMailer constructor.
@@ -34,6 +34,8 @@ class QQMailer{
     {
         // 实例化PHPMailer核心类
         $this->mailer = new PHPMailer();
+        // 配置中文
+        $this->mailer->setLanguage("zh_cn",__DIR__ . '/../lib/PHPMailer/');
         // 是否启用smtp的debug进行调试 开发环境建议开启 生产环境注释掉即可 默认关闭debug调试模式
         $this->mailer->SMTPDebug = $debug ? 1 : 0;
         // 使用smtp鉴权方式发送邮件
@@ -119,8 +121,7 @@ try {
 男儿重意气，何用钱刀为！</p>
 EOF;
 // 发送QQ邮件
-    $mailer->send('hezhao_java@163.com', $title, $content);
-    echo "邮件已发送成功";
+    $mailer->send('xxx@163.com', $title, $content);
 } catch (Exception $e) {
     echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
 }
