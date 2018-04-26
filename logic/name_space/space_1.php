@@ -121,6 +121,13 @@ $obj = new Another\thing; // instantiates object of class My\Full\Classname\thin
 $obj = new \Another\thing; // instantiates object of class Another\thing
 */
 
+// PHP 7+ 之后版本可以使用一个 use 导入同一个 namespace 的多个类、函数和常量
+/*
+use some\namespace\{ClassA, ClassB, ClassC as C};
+use function some\namespace\{fn_a, fn_b, fn_c};
+use const some\namespace\{ConstA, ConstB, ConstC};
+*/
+
 
 //使用命名空间：后备全局函数/常量
 //在一个命名空间中，当 PHP 遇到一个非限定的类、函数或常量名称时，它使用不同的优先策略来解析该名称。类名称总是解析到当前命名空间中的名称。
