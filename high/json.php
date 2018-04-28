@@ -30,6 +30,8 @@ $e->birthdate = date('m/d/Y h:i:s a', "8/5/1974 12:20:03 p");
 $e->birthdate = date('m/d/Y h:i:s a', strtotime("8/5/1974 12:20:03"));
 echo json_encode($e) . "<br>";
 
+
+
 /*
 json_decode() 函数用于对 JSON 格式的字符串进行解码，并转换为 PHP 变量。
 语法
