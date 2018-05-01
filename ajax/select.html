@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX 、JSON 与 MySQL</title>
+    <script>
+        // showSite() 函数会执行以下步骤：
+        // 检查是否有网站被选择
+        // 创建 XMLHttpRequest 对象
+        // 创建在服务器响应就绪时执行的函数
+        // 向服务器上的文件发送请求
+        // 请注意添加到 URL 末端的参数（q）（包含下拉列表的内容）
+
+        function showSite(str) {
+            if (str=="") {
+                document.getElementById("txtHint").innerHTML="";
+                return;
+            }
+            if (window.XMLHttpRequest) {
+                // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+                xmlhttp=new XMLHttpRequest();
+            } else {
+                // IE6, IE5 浏览器执行代码
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+                    var data = xmlhttp.responseText;
+                    var array = JSON.parse(data);
+
+                    var html = "";
+                    html += "<table border='1'>";
+                    html += "<tr>";
+                    html += "<th>ID</th>";
+                    html += "<th>网站名</th>";
+                    html += "<th>网站 URL</th>";
+                    html += "<th>Alexa 排名</th>";
+                    html += "<th>国家</th>";
+                    html += "</tr>";
+
+                    for(var i=0; i<array.length; i++){
+                        var data = array[i];
+                        html += "<tr>";
+                        html += "<td>" + data.id + "</td>";
+                        html += "<td>" + data.name + "</td>";
+                        html += "<td>" + data.url + "</td>";
+                        html += "<td>" + data.alexa + "</td>";
+                        html += "<td>" + data.country + "</td>";
+                        html += "</tr>";
+                    }
+                    html += "</table>";
+
+                    document.getElementById("txtHint").innerHTML = html;
+                }
+            };
+            xmlhttp.open("GET","getsite_mysql.php?q="+str,true);
+            xmlhttp.send();
+        }
+    </script>
+</head>
+<body>
+
+<form>
+    <select name="users" onchange="showSite(this.value)">
+        <option value="">选择一个网站:</option>
+        <option value="1">Google</option>
+        <option value="2">淘宝</option>
+        <option value="3">菜鸟教程</option>
+        <option value="4">微博</option>
+        <option value="5">Facebook</option>
+    </select>
+</form>
+<br>
+<div id="txtHint">
+    <b>网站信息显示在这里……</b>
+</div>
+</body>
+</html>

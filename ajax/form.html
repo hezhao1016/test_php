@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        //如果 JavaScript 发送了任何文本（即 strlen($q) > 0），则会发生：
+        //查找匹配 JavaScript 发送的字符的姓名
+        //如果未找到匹配，则将响应字符串设置为 "no suggestion"
+        //如果找到一个或多个匹配姓名，则用所有姓名设置响应字符串
+        //把响应发送到 "txtHint" 占位符
+
+        function showHint(str) {
+            if (str.length==0) {
+                document.getElementById("txtHint").innerHTML="";
+                return;
+            }
+            if (window.XMLHttpRequest) {
+                // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行的代码
+                xmlhttp=new XMLHttpRequest();
+            } else {
+                //IE6, IE5 浏览器执行的代码
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+                    document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+                }
+            };
+            xmlhttp.open("GET","gethint.php?q="+str,true);
+            xmlhttp.send();
+        }
+    </script>
+</head>
+<body>
+
+<p><b>在输入框中输入一个姓名:</b></p>
+<form>
+    姓名: <input type="text" onkeyup="showHint(this.value)">
+</form>
+<p>返回值: <span id="txtHint"></span></p>
+
+</body>
+</html>
+

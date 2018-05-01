@@ -8,8 +8,8 @@
 class Site{
 
     // 成员变量
-    var $url;
-    var $title;
+    private $url;
+    private $title;
 
     function setUrl($url){
         // 使用$this访问当前对象，操作符 ->
@@ -22,10 +22,14 @@ class Site{
     function setTitle($par){
         $this->title = $par;
     }
-
     function getTitle(){
         echo $this->title . "<br>";
     }
+
+    public function __toString(){
+        return "Site [url=" . $this->url . ", title=" . $this->title . "]";
+    }
+
 }
 
 // 创建对象
@@ -50,6 +54,8 @@ $google->getTitle();
 $runoob->getUrl();
 $taobao->getUrl();
 $google->getUrl();
+
+echo $google . "<br>"; // 调用toString方法
 
 
 //访问控制

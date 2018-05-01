@@ -36,11 +36,26 @@ x+	读/写。创建新文件。如果文件已存在，则返回 FALSE 和一个
 //可以直接获取网页内容
 //$file = fopen("https://www.baidu.com","r");
 
+//$file = fopen("test.txt","r");
+// 1、返回读取的字符串，一次最多1024个字节
+//$contents = fread($file,1024);
+// 2、读取整个文件
+//$contents = fread($file,filesize("test.txt"));
+
 //// 写入
 //$file = fopen("D:/ztest/b.txt","w");
 //fwrite($file,"这个人很懒，什么也没留下。\r\n2018.04.23 凌晨");
-//$file.fflush($file); // 刷新缓冲
-//$file.fclose($file);
+//fflush($file); // 刷新缓冲
+//fclose($file);
+
+
+//把整个文件读入一个字符串中
+echo file_get_contents("D:/ztest/a.txt");
+echo "<br>";
+
+//把一个字符串写入文件中
+//echo file_put_contents("D:/ztest/a_put.txt","Hello World. Testing!");
+
 
 //返回路径中的文件名部分
 $path = "/testweb/home.php";
@@ -93,10 +108,3 @@ echo "<br/>";
 
 //复制文件
 //var_dump(copy("D:/ztest/a.txt","D:/ztest/a_copy.txt"));
-
-//把整个文件读入一个字符串中
-echo file_get_contents("D:/ztest/a.txt");
-echo "<br>";
-
-//把一个字符串写入文件中
-//echo file_put_contents("D:/ztest/a_put.txt","Hello World. Testing!");

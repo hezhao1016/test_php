@@ -58,6 +58,18 @@ function sum(...$numbers) {
 echo sum(1, 2, 3, 4);
 echo "<br>";
 
+//可变长度参数 引用传递
+function change(&... $names){
+    $names[0] = "何";
+    return $names;
+}
+$firstname = "张";
+$lastname = "三";
+print_r(change($firstname,$lastname));
+echo "<br>";
+echo $firstname,$lastname;
+echo "<br>";
+
 
 // 值传递 默认
 function takeArray($arrays){
@@ -65,9 +77,9 @@ function takeArray($arrays){
     return $arrays;
 }
 $nums = [1, 2, 3];
-print_r(takeArray($nums)); //并不会改变数组的值，这与Java不同！
+print_r(takeArray($nums));
 echo "<br>";
-print_r($nums);
+print_r($nums); //并不会改变数组的值，这与Java不同！
 echo "<hr>";
 
 

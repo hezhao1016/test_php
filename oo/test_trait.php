@@ -36,9 +36,9 @@ class Demo1{
 $obj = new Demo1;
 echo $obj->hello1(); //访问trait类Test1中的hello1()
 echo '<hr>';
-echo $obj->name; //访问ttrait类Test1中的$name属性
+echo $obj->name; //访问trait类Test1中的$name属性
 echo '<hr>';
-echo $obj->hello2(); //访问ttrait类Test2中的hello2()
+echo $obj->hello2(); //访问trait类Test2中的hello2()
 */
 
 
