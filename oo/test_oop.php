@@ -79,3 +79,8 @@ $dog->running();
 $bord = new Bird("小榄");
 $bord->play();
 $bord->fly();
+
+# instanceof 用于确定一个 PHP 变量是否属于某一类 class 的实例，包括父类
+var_dump($dog instanceof Dog);
+var_dump($dog instanceof Animal);
+var_dump($bord instanceof Animal);
