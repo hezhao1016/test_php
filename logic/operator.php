@@ -252,3 +252,5 @@ echo "\n";
 $e = ($a + $b) * $c;  // 使用括号
 echo $e;
 echo "\n";
+
+# instanceof 用于确定一个 PHP 变量是否属于某一类 class 的实例，包括父类
